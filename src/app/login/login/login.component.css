@@ -28,7 +28,8 @@ body {
     border-radius: 6px;
     background: white;
     box-shadow: -6px 6px 12px #b4b4b4, 6px -6px 12px #cccccc;   
-
+    margin-left: 25%;
+    margin-top: 5%;
 }
 
 .text {
