@@ -1,0 +1,14 @@
+.agenda{
+    margin-top: 75px;    
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 600px;
+}
+span {
+    width: 155px;
+}
+
+.combo{
+    margin-left: 10px;
+    top: 10px;
+}
