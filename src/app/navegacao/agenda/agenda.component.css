@@ -1,8 +1,11 @@
 .agenda{
-    margin-top: 75px;    
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 600px;
+  position: absolute;
+  width: 1440px;
+  height: 823px;
+  left: 0px;
+  top: 160px;
+
+  background: rgba(144, 99, 255, 0.1);
 }
 span {
     width: 155px;

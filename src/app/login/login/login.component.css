@@ -9,7 +9,7 @@
 
 html,
 body {
-    height: 100%;         
+    height: 100%;
 }
 
 body {
@@ -27,8 +27,8 @@ body {
     border-radius: 6px;
     border-radius: 6px;
     background: white;
-    box-shadow: -6px 6px 12px #b4b4b4, 6px -6px 12px #cccccc;   
-    margin-left: 25%;
+    box-shadow: -6px 6px 12px #b4b4b4, 6px -6px 12px #cccccc;
+    margin-left: 30%;
     margin-top: 5%;
 }
 

@@ -1,3 +1,11 @@
 .calendario {
-    width: 300px;
+
+position: absolute;
+width: 312.96px;
+height: 329.34px;
+left: 873px;
+top: 78px;
+
+background: rgba(144, 99, 255, 0.2);
+border-radius: 10px;
   }

@@ -1,6 +1,9 @@
 .reservas{
-    margin-top: 75px;    
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 550px;
+  position: absolute;
+  width: 1440px;
+  height: 823px;
+  left: 0px;
+  top: 160px;
+
+  background: rgba(144, 99, 255, 0.1);
 }

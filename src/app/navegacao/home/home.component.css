@@ -1,11 +1,116 @@
 .home{
-    margin-top: 75px;    
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 550px;    
-    
+  position: absolute;
+  width: 1440px;
+  height: 823px;
+  left: 0px;
+  top: 160px;
+
+  background: rgba(144, 99, 255, 0.1);
+
 }
 .flex-container {
     display: flex;
-    flex-wrap: nowrap;    
+    flex-wrap: nowrap;
   }
+  .form-group textarea {
+
+    position: absolute;
+    width: 474px;
+    height: 109px;
+    left: 246px;
+    top: 78px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  .form-group .prato{
+      position: absolute;
+      width: 220px;
+      height: 54px;
+      left: 246px;
+      top: 30px;
+
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 54px;
+      /* identical to box height */
+      text-align: center;
+      color: #9063FF;
+  }
+      .form-group .reservas {
+    position: absolute;
+    width: 163px;
+    height: 54px;
+    left: 244px;
+    top: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+    color: #9063FF;
+  }
+.form-group .table-reserva  {
+
+position: absolute;
+width: 34px;
+height: 21px;
+left: 326px;
+top: 200px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 5px;
+/* identical to box height */
+
+text-align: center;
+
+color: #9063FF;
+}
+
+.form-group .table-reserva  {
+  width: 474px;
+  height: 109px;
+  left: 246px;
+  top: 250px;
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.palco {
+
+position: absolute;
+width: 99px;
+height: 54px;
+left: 250px;
+top: 370px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+text-align: center;
+
+color: #9063FF;
+}
+
+.table-palco  {
+
+  position: absolute;
+  width: 474px;
+  height: 109px;
+  left: 250px;
+  top: 423px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
