@@ -7,6 +7,22 @@
 
   background: rgba(144, 99, 255, 0.1);
 }
+.form-group .prato-dia{
+  
+  width: 500px;
+  height: 54px;
+  left: 244px;   
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  
+  text-align: center;
+  color: #9063FF;
+}
+
+
 span {
     width: 155px;
 }

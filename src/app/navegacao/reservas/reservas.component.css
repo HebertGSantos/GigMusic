@@ -5,5 +5,36 @@
   left: 0px;
   top: 160px;
 
-  background: rgba(144, 99, 255, 0.1);
+  background: rgba(144, 99, 255, 0.1);  
+}
+
+.form-group .solicitacoes{
+  
+    width: 500px;
+    height: 54px;
+    left: 244px;
+    top: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    
+    text-align: center;
+    color: #9063FF;
+}
+
+.form-group .table-solicitacoes{  
+  
+  width: 600px;
+  height: 21px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 5px; 
+  
+  text-align: center;
+  
+  color: #9063FF;
 }

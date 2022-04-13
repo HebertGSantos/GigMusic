@@ -103,7 +103,7 @@ text-align: center;
 color: #9063FF;
 }
 
-.table-palco  {
+.form-group .table-palco  {
 
   position: absolute;
   width: 474px;
@@ -113,4 +113,5 @@ color: #9063FF;
 
   background: #FFFFFF;
   border-radius: 8px;
+  color: #9063FF;
 }
