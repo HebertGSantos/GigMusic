@@ -22,10 +22,11 @@
     
     text-align: center;
     color: #9063FF;
+    
 }
 
 .form-group .table-solicitacoes{  
-  
+  margin-left: 65px;
   width: 600px;
   height: 21px;
   font-family: 'Poppins';

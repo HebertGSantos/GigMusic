@@ -3,28 +3,31 @@
     <div class="agenda">
         <div class="form-group">
             <h2 class="prato-dia" for="exampleFormControlTextarea1">Prato do Dia</h2>
-            <div class="input-group mb-3">
+            <div class="alinha-input">
+              <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Prato Principal:</span>
+                  <span class="input-group-text color">Prato Principal:</span>
                 </div>
-                <input type="text" class="form-control" placeholder="Digite aqui seu prato do dia">
+                <input type="text" class="form-control color" placeholder="Digite aqui seu prato do dia">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Acompanhamento:</span>
+                  <span class="input-group-text color">Acompanhamento:</span>
                 </div>
-                <input type="text" class="form-control" placeholder="Digite aqui seu acompanhamento do dia">
+                <input type="text" class="form-control color" placeholder="Digite aqui seu acompanhamento do dia">
             </div>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Sobremesa:</span>
+                  <span class="input-group-text color">Sobremesa:</span>
                 </div>
                 <input type="text" class="form-control" placeholder="Digite aqui sua sobremesa do dia">
             </div>
+          </div>            
         </div>
-        <div class="form-group">
-            <h2 class="prato-dia" for="exampleFormControlTextarea1">Buscar artista pro palco</h2>
-            <div class="container">
+        <div class="row">
+          <div class="form-group">
+            <h2 class="buscar-artista" for="exampleFormControlTextarea1">Buscar artista pro palco</h2>            
+            <div class="combo">
                 <div class="row">                                               
                     <div class="col-sm">                    
                         <span for="cars">Buscar estilo:</span>    
@@ -46,58 +49,67 @@
                   </div>                  
                 </div>
               </div>
-            <table class="table">
-                <thead>  
-                    <tr>
-                        <th>Banda</th>
-                        <th>Repertório</th>
-                        <th>Cidade</th>
-                        <th>E-Mail</th>
-                        <th>Whatsapp</th>
-                    </tr>               
-                </thead>
-                <tbody>
-                  <tr>                    
-                    <td>John Doe</td>
-                    <td>Capital Inicial Cover</td>
-                    <td>São Paulo</td>
-                    <td>banda@gmail.com</td>
-                    <td>(11) 9 9999-9999</td>
-                  </tr>
-                  <tr>                    
-                    <td>John Doe</td>
-                    <td>Capital Inicial Cover</td>
-                    <td>São Paulo</td>
-                    <td>banda@gmail.com</td>
-                    <td>(11) 9 9999-9999</td>
-                  </tr>
-                  <tr>                    
-                    <td>John Doe</td>
-                    <td>Capital Inicial Cover</td>
-                    <td>São Paulo</td>
-                    <td>banda@gmail.com</td>
-                    <td>(11) 9 9999-9999</td>
-                  </tr>
-                </tbody>
-              </table>              
+              <div class="row">
+                <table class="table">
+                  <thead>  
+                      <tr>
+                          <th>Banda</th>
+                          <th>Repertório</th>
+                          <th>Cidade</th>
+                          <th>E-Mail</th>
+                          <th>Whatsapp</th>
+                      </tr>               
+                  </thead>
+                  <tbody>
+                    <tr>                    
+                      <td>John Doe</td>
+                      <td>Capital Inicial Cover</td>
+                      <td>São Paulo</td>
+                      <td>banda@gmail.com</td>
+                      <td>(11) 9 9999-9999</td>
+                    </tr>
+                    <tr>                    
+                      <td>John Doe</td>
+                      <td>Capital Inicial Cover</td>
+                      <td>São Paulo</td>
+                      <td>banda@gmail.com</td>
+                      <td>(11) 9 9999-9999</td>
+                    </tr>
+                    <tr>                    
+                      <td>John Doe</td>
+                      <td>Capital Inicial Cover</td>
+                      <td>São Paulo</td>
+                      <td>banda@gmail.com</td>
+                      <td>(11) 9 9999-9999</td>
+                    </tr>
+                  </tbody>
+                </table>    
+              </div>                      
+          </div>
         </div>
-        <div class="form-group">
-            <h2 class="prato-dia" for="exampleFormControlTextarea1">Confirmar artista</h2>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Artista:</span>
+        <div class="row">
+            <div class="form-group">
+              <h2 class="confirmar-artista" for="exampleFormControlTextarea1">Confirmar artista</h2>
+                <div class="alinha-input">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text color">Artista:</span>
+                    </div>
+                    <input type="text" class="form-control color" placeholder="Digite o nome do artista">
                 </div>
-                <input type="text" class="form-control" placeholder="Digite o nome do artista">
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Horário:</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Digite o horário">
-                <button type="button" class="btn btn-success">Confirmar</button>                        
-                <button type="button" class="btn btn-danger">Cancelar</button>
-            </div>           
-        </div>      
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text color" >Horário:</span>
+                    </div>
+                    <input type="text" class="form-control color" placeholder="Digite o horário">
+                    <button type="button" class="btn btn-success">Confirmar</button>                        
+                    <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>           
+              </div>              
+          </div> 
+        </div>
+        
+             
         <app-calendario></app-calendario>
     </div>
     
