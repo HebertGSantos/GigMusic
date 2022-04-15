@@ -37,6 +37,6 @@ import { MatCardModule } from '@angular/material/card';
     MatCardModule    
   ],
   providers: [],
-  bootstrap: [AppComponent,CalendarioComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
